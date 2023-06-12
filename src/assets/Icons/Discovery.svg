@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 329.28 329.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0076e2;
+        font-family: GOBOLD;
+        font-size: 41px;
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_8);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_8" data-name="Gradiente sem nome 8" x1="292.83" y1="270.3" x2="35.85" y2="121.93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0076e2"/>
+      <stop offset="1" stop-color="#004095"/>
+    </linearGradient>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g>
+      <path class="cls-3" d="m144.47,59.23h0c69.26,0,125.41,56.15,125.41,125.41v125.41h-125.41c-69.26,0-125.41-56.15-125.41-125.41h0c0-69.26,56.15-125.41,125.41-125.41h0Z"/>
+      <g>
+        <text class="cls-2" transform="translate(91.36 49.79) rotate(-17.11)"><tspan x="0" y="0">D</tspan></text>
+        <text class="cls-2" transform="translate(111.71 44.08) rotate(-10.67)"><tspan x="0" y="0">I</tspan></text>
+        <text class="cls-2" transform="translate(122.65 41.7) rotate(-4.35)"><tspan x="0" y="0">S</tspan></text>
+        <text class="cls-2" transform="translate(143.16 40.07) rotate(3.71)"><tspan x="0" y="0">C</tspan></text>
+        <text class="cls-2" transform="translate(163.47 41.3) rotate(11.81)"><tspan x="0" y="0">O</tspan></text>
+        <text class="cls-2" transform="translate(183.69 45.11) rotate(20.09)"><tspan x="0" y="0">V</tspan></text>
+        <text class="cls-2" transform="translate(203.49 52.36) rotate(28.03)"><tspan x="0" y="0">E</tspan></text>
+        <text class="cls-2" transform="translate(220.18 61.08) rotate(35.91)"><tspan x="0" y="0">R</tspan></text>
+        <text class="cls-2" transform="translate(236.86 73) rotate(44.09)"><tspan x="0" y="0">Y</tspan></text>
+        <text class="cls-2" transform="translate(251.61 87.59) rotate(49.82)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-2" transform="translate(257.91 94.52) rotate(55.77)"><tspan x="0" y="0">S</tspan></text>
+        <text class="cls-2" transform="translate(269.57 111.48) rotate(64.02)"><tspan x="0" y="0">A</tspan></text>
+        <text class="cls-2" transform="translate(278.82 130.39) rotate(72.18)"><tspan x="0" y="0">P</tspan></text>
+        <text class="cls-2" transform="translate(284.77 149.67) rotate(78.08)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-2" transform="translate(287.05 158.78) rotate(84.08)"><tspan x="0" y="0">S</tspan></text>
+        <text class="cls-2" transform="translate(288.94 179.55) rotate(90)"><tspan x="0" y="0">/</tspan><tspan x="16.15" y="0">4</tspan><tspan x="38.62" y="0">H</tspan><tspan x="61.12" y="0">A</tspan><tspan x="83.29" y="0">N</tspan><tspan x="105.77" y="0">A</tspan></text>
+      </g>
+      <g>
+        <rect class="cls-1" x="127.63" y="203.27" width="7.95" height="7.95"/>
+        <rect class="cls-1" x="143.54" y="203.27" width="7.95" height="7.95"/>
+        <rect class="cls-1" x="159.45" y="203.27" width="7.95" height="7.95"/>
+        <path class="cls-1" d="m215.39,131.68h-40.04v23.86h15.91v7.95h-23.86v15.91h-15.91v-23.86h15.91v-23.86h-39.77v23.86h15.91v23.86h-15.91v-15.91h-23.86v-7.95h15.91v-23.86h-40.04v23.86h16.17v15.91h23.86v7.95h-15.91v47.72h-7.95v3.98c0,10.96,8.92,19.89,19.89,19.89h63.63c10.96,0,19.89-8.92,19.89-19.89v-3.98h-7.95v-47.72h-15.91v-7.95h23.86v-15.91h16.17v-23.86Zm-79.81,7.95h23.86v7.95h-23.86v-7.95Zm-47.99,0h24.13v7.95h-24.13v-7.95Zm91.74,103.4h-63.63c-5.19,0-9.61-3.32-11.25-7.95h86.13c-1.64,4.63-6.06,7.95-11.25,7.95h0Zm3.98-15.91h-71.59v-39.77h71.59v39.77Zm24.13-79.54h-24.13v-7.95h24.13v7.95Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

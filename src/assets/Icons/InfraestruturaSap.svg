@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 329.28 328.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0076e2;
+        font-family: GOBOLD;
+        font-size: 41px;
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_8);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_8" data-name="Gradiente sem nome 8" x1="292.83" y1="270.17" x2="35.85" y2="121.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0076e2"/>
+      <stop offset="1" stop-color="#004095"/>
+    </linearGradient>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g>
+      <path class="cls-3" d="m144.47,59.1h0c69.26,0,125.41,56.15,125.41,125.41v125.41h-125.41c-69.26,0-125.41-56.15-125.41-125.41h0c0-69.26,56.15-125.41,125.41-125.41h0Z"/>
+      <text class="cls-2" transform="translate(68.72 61.32) rotate(-29.25)"><tspan x="0" y="0">i</tspan></text>
+      <text class="cls-2" transform="translate(78.32 55.55) rotate(-22.73)"><tspan x="0" y="0">n</tspan></text>
+      <text class="cls-2" transform="translate(98.07 47.3) rotate(-14.79)"><tspan x="0" y="0">f</tspan></text>
+      <text class="cls-2" transform="translate(115.89 42.75) rotate(-6.98)"><tspan x="0" y="0">r</tspan></text>
+      <text class="cls-2" transform="translate(136.65 40.12) rotate(1.28)"><tspan x="0" y="0">a</tspan></text>
+      <text class="cls-2" transform="translate(157.7 40.59) rotate(9.15)"><tspan x="0" y="0">e</tspan></text>
+      <text class="cls-2" transform="translate(176.37 43.16) rotate(16.99)"><tspan x="0" y="0">s</tspan></text>
+      <text class="cls-2" transform="translate(196.09 49.19) rotate(24.73)"><tspan x="0" y="0">t</tspan></text>
+      <text class="cls-2" transform="translate(212.72 56.67) rotate(32.51)"><tspan x="0" y="0">r</tspan></text>
+      <text class="cls-2" transform="translate(230.3 67.77) rotate(40.72)"><tspan x="0" y="0">u</tspan></text>
+      <text class="cls-2" transform="translate(246.23 81.51) rotate(48.45)"><tspan x="0" y="0">t</tspan></text>
+      <text class="cls-2" transform="translate(258.46 95.06) rotate(56.19)"><tspan x="0" y="0">u</tspan></text>
+      <text class="cls-2" transform="translate(270.18 112.42) rotate(64.49)"><tspan x="0" y="0">r</tspan></text>
+      <text class="cls-2" transform="translate(279.28 131.28) rotate(72.86)"><tspan x="0" y="0">a</tspan></text>
+      <text class="cls-2" transform="translate(285.3 151.73) rotate(78.97)"><tspan x="0" y="0"> </tspan></text>
+      <text class="cls-2" transform="translate(287.42 160.85) rotate(84.96)"><tspan x="0" y="0">s</tspan></text>
+      <text class="cls-2" transform="translate(288.94 181.77) rotate(90)"><tspan x="0" y="0">a</tspan><tspan x="22.18" y="0">p</tspan></text>
+      <g>
+        <path class="cls-1" d="m201.43,234.17v-37.77h-7.55v-38.92c4.4-1.56,7.55-5.76,7.55-10.68,0-6.25-5.08-11.33-11.33-11.33-4.92,0-9.12,3.16-10.68,7.55h-23.81v-15.11h-67.98v37.77h-7.55v3.78c0,9.12,6.5,16.75,15.11,18.5v39.3c-4.4,1.56-7.55,5.76-7.55,10.68,0,6.25,5.08,11.33,11.33,11.33,4.92,0,9.12-3.16,10.68-7.55h16.64c1.75,8.61,9.38,15.11,18.5,15.11h45.32c10.41,0,18.88-8.47,18.88-18.88v-3.78h-7.55Zm-60.43,0v-30.21h52.88v30.21h-52.88Zm49.1-91.15c2.08,0,3.78,1.69,3.78,3.78s-1.69,3.78-3.78,3.78-3.78-1.69-3.78-3.78,1.69-3.78,3.78-3.78h0Zm-94.92-7.55h52.88v30.21h-52.88v-30.21Zm-6.91,37.77h66.69c-1.56,4.4-5.76,7.55-10.68,7.55h-45.32c-4.92,0-9.12-3.16-10.68-7.55h0Zm10.68,68.49c-2.08,0-3.78-1.69-3.78-3.78s1.69-3.78,3.78-3.78,3.78,1.69,3.78,3.78-1.69,3.78-3.78,3.78h0Zm10.68-7.55c-1.14-3.21-3.69-5.76-6.9-6.9v-38.92h41.55c10.41,0,18.88-8.47,18.88-18.88v-3.78h-7.55v-15.11h23.81c1.14,3.21,3.69,5.76,6.9,6.9v38.92h-52.88v37.77h-23.81Zm80.47,15.11h-45.32c-4.92,0-9.12-3.16-10.68-7.55h66.69c-1.56,4.4-5.76,7.55-10.68,7.55h0Z"/>
+        <rect class="cls-1" x="148.56" y="215.29" width="7.55" height="7.55"/>
+        <rect class="cls-1" x="163.66" y="215.29" width="7.55" height="7.55"/>
+        <rect class="cls-1" x="178.77" y="215.29" width="7.55" height="7.55"/>
+        <rect class="cls-1" x="102.73" y="146.8" width="7.55" height="7.55"/>
+        <rect class="cls-1" x="117.84" y="146.8" width="7.55" height="7.55"/>
+        <rect class="cls-1" x="132.94" y="146.8" width="7.55" height="7.55"/>
+      </g>
+    </g>
+  </g>
+</svg>
