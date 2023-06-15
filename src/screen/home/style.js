@@ -134,7 +134,11 @@ export const Consultancy = styled.div`
     }
 
     @media (max-width: 767px) {
-      width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 330px;
     }
   }
 
