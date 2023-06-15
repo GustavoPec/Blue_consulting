@@ -134,7 +134,7 @@ export const Consultancy = styled.div`
     }
 
     @media (max-width: 767px) {
-      width: 300px;
+      width: 280px;
     }
   }
 
@@ -194,10 +194,12 @@ export const Projects = styled.div`
       width: 380px;
 
       @media (max-width: 767px) {
-        display: flex;
-        flex-direction: column;
-        width: auto;
+      width: auto;
+      text-align: center;
       font-size: 60px;
+
+
+    }
     }
   }
 
