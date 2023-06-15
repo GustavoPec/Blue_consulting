@@ -97,7 +97,7 @@ export const ContainerInfos = styled.div`
   }
 
   .Title {
-    width: 260px;
+    width: auto;
     display: flex;
     justify-content: center;
 
@@ -148,7 +148,8 @@ export const AchievementsProjs = styled.div`
   }
 
   .TitleAchievement {
-    width: 210px;
+    width: auto;
+    display: flex;
     h2 {
       font-size: 40px;
       border-style: solid;

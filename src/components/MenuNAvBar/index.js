@@ -46,7 +46,7 @@ export const NavbarMenu = () => {
             navigate("/Blue");
           }}
         >
-          BLUE
+          SOBRE NÓS
         </MenuItem>
         <MenuItem
           fontSize="18px"

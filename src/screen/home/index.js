@@ -7,8 +7,11 @@ import Agree from "../../assets/AgreeIcon.png";
 import { Services } from "./components/services";
 import { Button } from "../../components/Button";
 import { Footer } from "../../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
+  let navigate = useNavigate();
+
   return (
     <Styles.Main>
       <div className="Navbar">
@@ -34,7 +37,13 @@ export const Home = () => {
           </div>
         </div>
         <div data-aos="zoom-in" data-aos-easing="linear" className="Button">
-          <Button bg="#101e2b" text="Saiba mais" />
+          <Button
+            onClick={() => {
+              navigate("/Soluções");
+            }}
+            bg="#101e2b"
+            text="Saiba mais"
+          />
         </div>
       </Styles.Introduction>
 
@@ -236,8 +245,8 @@ export const Home = () => {
               autoComplete="off"
             >
               <option value="Junior">Junior</option>
-              <option value="Senior">Senior</option>
               <option value="Pleno">Pleno</option>
+              <option value="Senior">Senior</option>
               <option value="None">Não se encaixa</option>
             </select>
             <input

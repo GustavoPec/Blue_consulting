@@ -87,7 +87,7 @@ export const Solucoes = () => {
             <ModulesDiffs
               bg="#101e2b"
               Title="VELOCIDADE NAS PROPOSTAS"
-              Text="Proposta em no máximo 3 dias úteis."
+              Text="Em 24 horas enviaremos sua proposta comercial!"
             />
           </div>
         </Styles.Differentials>

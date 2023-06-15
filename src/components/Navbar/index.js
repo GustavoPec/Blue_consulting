@@ -35,7 +35,7 @@ export const Navbar = () => {
             navigate("/Blue");
           }}
         >
-          BLUE
+          SOBRE NÓS
         </li>
         <li
           onClick={() => {
