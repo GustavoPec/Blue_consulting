@@ -99,7 +99,11 @@ export const ContainerInfos = styled.div`
   .Title {
     width: 260px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
 
     h2 {
       font-size: 40px;

@@ -62,7 +62,7 @@ export const SolucoesContent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 300px;
+    width: 250px;
 
     h1 {
       width: 180px;
@@ -71,6 +71,10 @@ export const SolucoesContent = styled.div`
       border-width: 7px;
       border-image: linear-gradient(to right, #0076e2 70%, #101e2b 30%);
       border-image-slice: 0 0 100% 0;
+    }
+
+    span {
+      padding-left: 7px;
     }
   }
 
