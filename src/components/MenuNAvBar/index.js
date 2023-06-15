@@ -23,12 +23,13 @@ export const NavbarMenu = () => {
         zIndex="2"
       />
 
-      <MenuList width="150px" border="1px solid #c1c1c1">
+      <MenuList marginTop="12px" width="200px" border="1px solid #c1c1c1">
         <MenuItem
+          fontSize="18px"
           paddingLeft="10px"
           border="1px solid #f7f7f7"
           background="#f7f7f7"
-          height="30px"
+          height="50px"
           onClick={() => {
             navigate("/");
           }}
@@ -36,10 +37,11 @@ export const NavbarMenu = () => {
           INÍCIO
         </MenuItem>
         <MenuItem
+          fontSize="18px"
           paddingLeft="10px"
           border="1px solid #f7f7f7"
           background="#f7f7f7"
-          height="30px"
+          height="50px"
           onClick={() => {
             navigate("/Blue");
           }}
@@ -47,10 +49,11 @@ export const NavbarMenu = () => {
           BLUE
         </MenuItem>
         <MenuItem
+          fontSize="18px"
           paddingLeft="10px"
           border="1px solid #f7f7f7"
           background="#f7f7f7"
-          height="30px"
+          height="50px"
           onClick={() => {
             navigate("/Consultoria");
           }}
@@ -58,10 +61,11 @@ export const NavbarMenu = () => {
           CONSULTORIA SAP
         </MenuItem>
         <MenuItem
+          fontSize="18px"
           paddingLeft="10px"
           border="1px solid #f7f7f7"
           background="#f7f7f7"
-          height="30px"
+          height="50px"
           onClick={() => {
             navigate("/Soluções");
           }}
@@ -69,10 +73,11 @@ export const NavbarMenu = () => {
           SOLUÇÕES
         </MenuItem>
         <MenuItem
+          fontSize="18px"
           paddingLeft="10px"
           border="1px solid #f7f7f7"
           background="#f7f7f7"
-          height="30px"
+          height="50px"
           onClick={() => {
             navigate("/Contato");
           }}

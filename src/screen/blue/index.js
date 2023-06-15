@@ -54,7 +54,7 @@ export const Blue = () => {
             </Styles.AchievementsProjects>
           </Styles.AchievementsProjs>
           <Styles.Costumers>
-            <div className="Title">
+            <div className="TitleCostumers">
               <h2>CLIENTES QUE CONFIAM</h2>
             </div>
             <Costumers />

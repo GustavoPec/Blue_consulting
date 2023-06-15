@@ -22,9 +22,7 @@ export const Main = styled.div`
     align-items: center;
     justify-content: center;
     img {
-      @media (max-width: 767px) {
-        width: 90%;
-      }
+      width: 90%;
     }
   }
 `;

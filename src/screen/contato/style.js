@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import patern1 from "../../assets/paternBG3.png";
 
 export const Main = styled.div`
   width: 100%;
@@ -22,8 +23,17 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  background-image: url(${patern1});
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
   @media (max-width: 767px) {
-    height: 650px;
+    height: 700px;
+    justify-content: start;
+    padding-top: 40px;
   }
 `;
 

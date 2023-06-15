@@ -11,10 +11,10 @@ export const Footer = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-  /* margin-top: 100px; */
+
 
   @media (max-width: 767px) {
-    height: 850px;
+    height: 750px;
     background-size: cover;
   }
 

@@ -8,7 +8,7 @@ import { Services } from "./components/services";
 import { Button } from "../../components/Button";
 import { Footer } from "../../components/Footer";
 
-export const Home = () => {
+export const EmailConfirm = () => {
   return (
     <Styles.Main>
       <div className="Navbar">

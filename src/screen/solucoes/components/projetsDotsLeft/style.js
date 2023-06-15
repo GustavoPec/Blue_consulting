@@ -1,19 +1,20 @@
 import { styled } from "styled-components";
 
 export const Main = styled.div`
-  width: auto;
-  height: 70px;
+  max-width: 401px;
+  height: 75px;
   display: flex;
   flex-direction: row;
+  align-items: end;
 
   @media (max-width: 767px) {
-    width: 380px;
+    width: 90%;
   }
 `;
 
 export const Dot = styled.div`
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
   background: #0076e2;
   border-radius: 60px 60px 0px 60px;
   display: flex;
@@ -22,16 +23,18 @@ export const Dot = styled.div`
 `;
 
 export const Line = styled.div`
-  height: 70px;
-  width: 250px;
-  padding-left: 10px;
+  height: 40px;
+  width: auto;
+  padding: 5px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   justify-content: center;
+  border-bottom: 5px solid #0076e2;
 
   @media (max-width: 767px) {
     width: 270px;
+    height: 50px;
   }
 
   h1 {

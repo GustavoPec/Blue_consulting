@@ -12,6 +12,13 @@ export const Navbar = () => {
   return (
     <Styles.Main>
       <img src={Logo} alt="Logo" width="150px" />
+      {/* <div className="Selector">
+        <select name="select" defaultValue={value}>
+          <option value="PT">PT</option>
+          <option value="ES">ES</option>
+          <option value="EN">EN</option>
+        </select>
+      </div> */}
       <div className="MenuBar">
         <NavbarMenu />
       </div>
@@ -52,12 +59,6 @@ export const Navbar = () => {
               navigate("/Contato");
             }}
           />
-
-          {/* <select name="select" defaultValue={value}>
-            <option value="PT">PT</option>
-            <option value="ES">ES</option>
-            <option value="EN">EN</option>
-          </select> */}
         </div>
       </ul>
     </Styles.Main>

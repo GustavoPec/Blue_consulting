@@ -152,7 +152,7 @@ export const ConsultImg = styled.div`
 
 export const ErpSap = styled.div`
   width: 100%;
-  height: 750px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;

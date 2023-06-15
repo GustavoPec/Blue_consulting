@@ -11,20 +11,21 @@ export const Main = styled.div`
   z-index: 1;
 
   @media (max-width: 767px) {
-      width: 100%;
-    }
+    width: 100%;
+    gap: 0;
+    justify-content: space-around;
+  }
 
-  .MenuBar{
+  .MenuBar {
     display: none;
 
     @media (max-width: 767px) {
       display: block;
     }
-    i{
+    i {
       color: black;
       font-size: 32px;
     }
-    
   }
 
   ul {
@@ -87,5 +88,12 @@ export const Main = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
+  }
+
+  .Selector {
+    display: none;
+    @media (max-width: 767px) {
+      display: block;
+    }
   }
 `;

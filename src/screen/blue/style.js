@@ -23,6 +23,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  @media (max-width: 767px) {
+    height: 1400px;
+  }
 `;
 
 export const ContinerOutsiteBlue = styled.div`
@@ -84,6 +88,11 @@ export const ContainerInfos = styled.div`
 
     @media (max-width: 767px) {
       width: 100%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
     }
   }
 
@@ -117,7 +126,9 @@ export const ContainerInfos = styled.div`
     padding-left: 9px;
 
     @media (max-width: 767px) {
-      width: 95%;
+      width: 350px;
+      padding: none;
+      text-align: center;
     }
   }
 `;
@@ -129,6 +140,7 @@ export const AchievementsProjs = styled.div`
 
   @media (max-width: 767px) {
     width: 100%;
+    align-items: center;
   }
 
   .TitleAchievement {
@@ -175,10 +187,30 @@ export const Costumers = styled.div`
     width: 100%;
   }
 
-  .Title {
+  .TitleCostumers {
     width: 430px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-size: 40px;
+      border-style: solid;
+      border-width: 7px;
+      border-image: linear-gradient(
+        to right,
+        #0076e2 0%,
+        #0076e2 50%,
+        white 50%,
+        white 53%,
+        #101e2b 53%,
+        #101e2b 100%
+      );
+      border-image-slice: 0 0 100% 0;
+    }
+
     @media (max-width: 767px) {
       width: 100%;
+      align-items: center;
     }
   }
 `;

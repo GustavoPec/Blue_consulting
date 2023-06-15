@@ -12,48 +12,75 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.css";
 
 export const Modules = () => {
-  const animation = { duration: 7000, easing: (t) => t };
-  const [sliderRef] = useKeenSlider({
-    slides: {
-      perView: 4,
-      spacing: 48,
+  const [sliderRef] = useKeenSlider(
+    {
+      loop: true,
+      slides: {
+        perView: 3,
+        spacing: 20,
+      },
     },
-    loop: true,
-    renderMode: "performance",
-    created(s) {
-      s.moveToIdx(5, true, animation);
-    },
-    updated(s) {
-      s.moveToIdx(s.track.details.abs + 5, true, animation);
-    },
-    animationEnded(s) {
-      s.moveToIdx(s.track.details.abs + 5, true, animation);
-    },
-  });
+    [
+      (slider) => {
+        let timeout;
+        let mouseOver = false;
+        function clearNextTimeout() {
+          clearTimeout(timeout);
+        }
+        function nextTimeout() {
+          clearTimeout(timeout);
+          if (mouseOver) return;
+          timeout = setTimeout(() => {
+            slider.next();
+          }, 1500);
+        }
+        slider.on("created", () => {
+          slider.container.addEventListener("mouseover", () => {
+            mouseOver = true;
+            clearNextTimeout();
+          });
+          slider.container.addEventListener("mouseout", () => {
+            mouseOver = false;
+            nextTimeout();
+          });
+          nextTimeout();
+        });
+        slider.on("dragStarted", clearNextTimeout);
+        slider.on("animationEnded", nextTimeout);
+        slider.on("updated", nextTimeout);
+      },
+    ]
+  );
 
   return (
-    <Styles.Main ref={sliderRef} className="keen-slider">
-      <img src={Upgrade} alt="Icons" className="keen-slider__slide slide" />
-      <img src={RollOuts} alt="Icons" className="keen-slider__slide slide" />
-      <img src={AmsSap} alt="Icons" className="keen-slider__slide slide" />
-      <img src={Discovery} alt="Icons" className="keen-slider__slide slide" />
-      <img src={Convercao} alt="Icons" className="keen-slider__slide slide" />
-      <img
-        src={Implementacao}
-        alt="Icons"
-        className="keen-slider__slide slide"
-      />
-      <img
-        src={InfraestruturaSap}
-        alt="Icons"
-        className="keen-slider__slide slide"
-      />
-      <img src={Integracao} alt="Icons" className="keen-slider__slide slide" />
-      <img
-        src={MelhoriasSap}
-        alt="Icons"
-        className="keen-slider__slide slide"
-      />
+    <Styles.Main>
+      <div ref={sliderRef} className="keen-slider">
+        <img src={Upgrade} alt="Icons" className="keen-slider__slide slide" />
+        <img src={RollOuts} alt="Icons" className="keen-slider__slide slide" />
+        <img src={AmsSap} alt="Icons" className="keen-slider__slide slide" />
+        <img src={Discovery} alt="Icons" className="keen-slider__slide slide" />
+        <img src={Convercao} alt="Icons" className="keen-slider__slide slide" />
+        <img
+          src={Implementacao}
+          alt="Icons"
+          className="keen-slider__slide slide"
+        />
+        <img
+          src={InfraestruturaSap}
+          alt="Icons"
+          className="keen-slider__slide slide"
+        />
+        <img
+          src={Integracao}
+          alt="Icons"
+          className="keen-slider__slide slide"
+        />
+        <img
+          src={MelhoriasSap}
+          alt="Icons"
+          className="keen-slider__slide slide"
+        />
+      </div>
     </Styles.Main>
   );
 };

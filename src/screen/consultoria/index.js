@@ -46,13 +46,10 @@ export const Consultoria = () => {
         <Styles.ErpSapText>
           <span>
             O ERP SAP é projetado para fornecer uma{" "}
-            <span style={{ fontWeight: "bold" }}>visão holística </span>e em
-            <span style={{ fontWeight: "bold" }}> tempo real</span> das
-            operações de uma empresa, permitindo uma
-            <span style={{ fontWeight: "bold" }}>
-              {" "}
-              melhor coordenação
-            </span> e <span style={{ fontWeight: "bold" }}>controle</span> de
+            <strong>visão holística </strong>e em
+            <strong> tempo real</strong> das operações de uma empresa,
+            permitindo uma
+            <strong> melhor coordenação</strong> e <strong>controle</strong> de
             todas as atividades. Ele é baseado em um conjunto de módulos
             interconectados, onde cada módulo se concentra em uma área
             específica da empresa.

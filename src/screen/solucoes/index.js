@@ -17,21 +17,16 @@ export const Solucoes = () => {
       </Styles.Navbar>
       <Styles.Container>
         <Styles.ContainerSolucoes>
-          <Styles.ContainerInfos>
+          <Styles.SolucoesContent>
             <div className="SolucoesText">
-              <div className="SolucoesTitle">
-                <h1>Soluções</h1>
-              </div>
-              <div className="SolucoesSubText">
-                <span>
-                  Aumente a eficiência dos seus processos, alavancando a{" "}
-                  <strong>confiabilidade de seus negócios integrados</strong> e
-                  obtendo os melhores resultados.
-                </span>
-              </div>
+              <h1>Soluções</h1>
+              <span>
+                Aumente a eficiência dos seus processos, alavancando a{" "}
+                <strong>confiabilidade de seus negócios integrados</strong> e
+                obtendo os melhores resultados.
+              </span>
             </div>
-
-            <div className="WarpSolucoes">
+            <div className="SolucoesProjs">
               <ProjectsL Title="PERFIS DE ACESSO" img={Perfil} />
               <ProjectsL Title="MÓDULOS DE CONTRATOS" img={Contrato} />
               <ProjectsL Title="SOLUÇÕES NFe" img={Nfe} />
@@ -41,8 +36,34 @@ export const Solucoes = () => {
                 img={Compras}
               />
             </div>
-          </Styles.ContainerInfos>
+          </Styles.SolucoesContent>
+          <Styles.ContainerInfos />
         </Styles.ContainerSolucoes>
+        {/* <Styles.ContainerSolucoes>
+          <Styles.ContainerInfos>
+            <div className="Infos">
+              <div className="SolucoesText">
+                <div className="SolucoesTitle">
+                  
+                </div>
+                <div className="SolucoesSubText">
+                  
+                </div>
+              </div>
+
+              <div className="ModuleSolucoes">
+                <ProjectsL Title="PERFIS DE ACESSO" img={Perfil} />
+                <ProjectsL Title="MÓDULOS DE CONTRATOS" img={Contrato} />
+                <ProjectsL Title="SOLUÇÕES NFe" img={Nfe} />
+                <ProjectsL Title="FLUXO DE CAIXA" img={Fluxo} />
+                <ProjectsL
+                  Title="AUTOMATIZAÇÃO DA COTAÇÃO DE COMPRAS"
+                  img={Compras}
+                />
+              </div>
+            </div>
+          </Styles.ContainerInfos>
+        </Styles.ContainerSolucoes> */}
         <Styles.Differentials>
           <div className="DifferentialsTitle">
             <h1>DIFERENCIAIS DE ESCOLHER A BLUE</h1>
@@ -56,7 +77,7 @@ export const Solucoes = () => {
             <ModulesDiffs
               bg="#101e2b"
               Title="QUALIDADE DE ENTREGAS"
-              Text="No prazo e funcionando"
+              Text="No prazo e funcionando."
             />
             <ModulesDiffs
               bg="#0076e2"
@@ -66,7 +87,7 @@ export const Solucoes = () => {
             <ModulesDiffs
               bg="#101e2b"
               Title="VELOCIDADE NAS PROPOSTAS"
-              Text="Proposta em no máximo 3 dias úteis"
+              Text="Proposta em no máximo 3 dias úteis."
             />
           </div>
         </Styles.Differentials>
