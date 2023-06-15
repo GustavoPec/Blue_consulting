@@ -180,6 +180,8 @@ export const Projects = styled.div`
     justify-content: center;
 
     @media (max-width: 767px) {
+      width: 100%;
+      text-align: center;
     }
 
     span {
@@ -190,6 +192,12 @@ export const Projects = styled.div`
       font-size: 70px;
       background-image: linear-gradient(to top, #0076e2 35px, transparent 0%);
       width: 380px;
+
+      @media (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+      font-size: 60px;
     }
   }
 
