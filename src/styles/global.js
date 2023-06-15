@@ -8,10 +8,16 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'GOBOLD';
   src: font-url('../assets/Gobold Bold.otf') format('opentype');
-  /* Outros formatos de fonte, se necessário */
+} */
+
+@font-face{
+    font-family:"gobold";
+    src:url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldRegular.ttf") format("woff"),
+    url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldRegular.ttf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldRegular.ttf") format("truetype");
 }
 
     body{
