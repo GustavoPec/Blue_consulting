@@ -11,7 +11,8 @@ export const Footer = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 767px) {
     height: 750px;
@@ -45,10 +46,12 @@ export const Footer = styled.div`
   }
 
   .Footer {
+    max-width: 1400px;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   .Links {

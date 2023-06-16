@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const Main = styled.div`
-  max-width: 401px;
+  width: 401px;
   height: 75px;
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@ export const Dot = styled.div`
 `;
 
 export const Line = styled.div`
-  height: 40px;
+  height: auto;
   width: auto;
   padding: 5px;
   display: flex;

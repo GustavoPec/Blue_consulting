@@ -6,6 +6,8 @@ import perfiluser from "../../assets/Icons/PerfilIcon.png";
 import contrato from "../../assets/Icons/ContratoIcon.png";
 import fluxo from "../../assets/Icons/FluxoIcon.png";
 import nfe from "../../assets/Icons/NfeIcon.png";
+import quality from "../../assets/Icons/QualityIcon.png";
+import Production from "../../assets/Icons/ProductionIcon.png";
 import * as Styles from "./style";
 import { ModulesDiffs } from "./components/ModulesDiffs";
 
@@ -29,12 +31,17 @@ export const Solucoes = () => {
             <div className="SolucoesProjs">
               <ProjectsL Title="PERFIS DE ACESSO" img={perfiluser} />
               <ProjectsL Title="MÓDULOS DE CONTRATOS" img={contrato} />
-              <ProjectsL Title="SOLUÇÕES NFe" img={nfe} />
-              <ProjectsL Title="FLUXO DE CAIXA" img={fluxo} />
               <ProjectsL
                 Title="AUTOMATIZAÇÃO DA COTAÇÃO DE COMPRAS"
                 img={compras}
               />
+              <ProjectsL
+                Title="SOLUÇÕES NFe, Localização Brasil e J1BTAX"
+                img={nfe}
+              />
+              <ProjectsL Title="FLUXO DE CAIXA" img={fluxo} />
+              <ProjectsL Title="Módulo PP" img={Production} />
+              <ProjectsL Title="Módulo QM" img={quality} />
             </div>
           </Styles.SolucoesContent>
           <Styles.ContainerInfos />

@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  width: 1250px;
+  max-width: 1400px;
+  width: 100%;
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 140px;
-  background: #f7f7f7;
   z-index: 1;
 
   @media (max-width: 767px) {

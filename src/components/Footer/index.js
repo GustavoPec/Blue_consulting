@@ -26,7 +26,6 @@ export const Footer = () => {
             <div className="Icons">
               <i className="ph ph-instagram-logo"></i>
               <i className="ph ph-linkedin-logo"></i>
-              <i className="ph ph-facebook-logo"></i>
             </div>
           </div>
           <div
