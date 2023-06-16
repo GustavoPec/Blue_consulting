@@ -103,6 +103,7 @@ export const ContainerInfos = styled.div`
 
     @media (max-width: 767px) {
       width: 100%;
+      justify-content: center;
     }
 
     h2 {
@@ -130,8 +131,8 @@ export const ContainerInfos = styled.div`
     padding-left: 9px;
 
     @media (max-width: 767px) {
-      width: 350px;
-      padding: none;
+      width: 330px;
+      padding-left: 0px;
       text-align: center;
     }
   }
