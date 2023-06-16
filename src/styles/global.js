@@ -9,18 +9,12 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 @font-face {
-  font-family: 'GOBOLD';
-  src: font-url('../assets/GoboldBold.otf') format('opentype');
-   src: font-url('../assets/GoboldBold.otf') format('woff');
-   src: font-url('../assets/GoboldBold.otf') format('truetype');
+  font-family: 'gobold';
+  src: font-url('../assets/Gobold Bold.otf') format('opentype');
+   src: font-url('../assets/Gobold Bold.otf') format('woff');
+   src: font-url('../assets/Gobold Bold.otf') format('truetype');
 }
 
-/* @font-face{
-    font-family:"GOBOLD";
-    src: font-url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldBold.ttf") format("woff"),
-    font-url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldBold.ttf") format("opentype"),
-    font-url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldBold.ttf") format("truetype");
-} */
 
     body{
             margin: 0;
@@ -34,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'GOBOLD';
+  font-family: 'gobold';
   font-weight: 600;
 }
 
