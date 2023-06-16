@@ -2,7 +2,7 @@ import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import { ProjectsL } from "./components/projetsDotsLeft";
 import Compras from "../../assets/Icons/Compra.png";
-import Perfil from "../../assets/Icons/PerfilUser.png";
+import PerfilUser from "../../assets/Icons/PerfilUser.png";
 import Contrato from "../../assets/Icons/Contrato.png";
 import Fluxo from "../../assets/Icons/Fluxo.png";
 import Nfe from "../../assets/Icons/Nfe.png";
@@ -27,7 +27,7 @@ export const Solucoes = () => {
               </span>
             </div>
             <div className="SolucoesProjs">
-              <ProjectsL Title="PERFIS DE ACESSO" img={Perfil} />
+              <ProjectsL Title="PERFIS DE ACESSO" img={PerfilUser} />
               <ProjectsL Title="MÓDULOS DE CONTRATOS" img={Contrato} />
               <ProjectsL Title="SOLUÇÕES NFe" img={Nfe} />
               <ProjectsL Title="FLUXO DE CAIXA" img={Fluxo} />
