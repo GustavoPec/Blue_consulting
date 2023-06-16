@@ -1,11 +1,11 @@
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import { ProjectsL } from "./components/projetsDotsLeft";
-import Compras from "../../assets/Icons/compra.png";
-import PerfilUser from "../../assets/Icons/perfiluser.png";
-import Contrato from "../../assets/Icons/contrato.png";
-import Fluxo from "../../assets/Icons/fluxo.png";
-import Nfe from "../../assets/Icons/nfe.png";
+import compras from "../../assets/Icons/compra.png";
+import perfiluser from "../../assets/Icons/perfiluser.png";
+import contrato from "../../assets/Icons/contrato.png";
+import fluxo from "../../assets/Icons/fluxo.png";
+import nfe from "../../assets/Icons/nfe.png";
 import * as Styles from "./style";
 import { ModulesDiffs } from "./components/ModulesDiffs";
 
@@ -27,13 +27,13 @@ export const Solucoes = () => {
               </span>
             </div>
             <div className="SolucoesProjs">
-              <ProjectsL Title="PERFIS DE ACESSO" img={PerfilUser} />
-              <ProjectsL Title="MÓDULOS DE CONTRATOS" img={Contrato} />
-              <ProjectsL Title="SOLUÇÕES NFe" img={Nfe} />
-              <ProjectsL Title="FLUXO DE CAIXA" img={Fluxo} />
+              <ProjectsL Title="PERFIS DE ACESSO" img={perfiluser} />
+              <ProjectsL Title="MÓDULOS DE CONTRATOS" img={contrato} />
+              <ProjectsL Title="SOLUÇÕES NFe" img={nfe} />
+              <ProjectsL Title="FLUXO DE CAIXA" img={fluxo} />
               <ProjectsL
                 Title="AUTOMATIZAÇÃO DA COTAÇÃO DE COMPRAS"
-                img={Compras}
+                img={compras}
               />
             </div>
           </Styles.SolucoesContent>
