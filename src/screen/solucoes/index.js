@@ -1,11 +1,11 @@
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import { ProjectsL } from "./components/projetsDotsLeft";
-import Compras from "../../assets/Icons/Compra.png";
-import PerfilUser from "../../assets/Icons/PerfilUser.png";
-import Contrato from "../../assets/Icons/Contrato.png";
-import Fluxo from "../../assets/Icons/Fluxo.png";
-import Nfe from "../../assets/Icons/Nfe.png";
+import Compras from "../../assets/Icons/compra.png";
+import PerfilUser from "../../assets/Icons/perfiluser.png";
+import Contrato from "../../assets/Icons/contrato.png";
+import Fluxo from "../../assets/Icons/fluxo.png";
+import Nfe from "../../assets/Icons/nfe.png";
 import * as Styles from "./style";
 import { ModulesDiffs } from "./components/ModulesDiffs";
 
