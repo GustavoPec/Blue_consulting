@@ -37,17 +37,17 @@ export const Blue = () => {
             </div>
             <Styles.AchievementsProjects>
               <ProjectsL
-                Number="87"
+                Number="43"
                 Title="PROJETOS"
                 Text="Compreendendo as necessidades e expectativas dos clientes."
               />
               <ProjectsR
-                Number="62"
+                Number="19"
                 Title="CLIENTES"
                 Text="Satisfeitos com o nosso compromisso, excelência e qualidade de entrega."
               />
               <ProjectsL
-                Number="35"
+                Number="25"
                 Title="CONSULTORES"
                 Text="Com conhecimento profundo em suas áreas de especialização."
               />
@@ -55,7 +55,7 @@ export const Blue = () => {
           </Styles.AchievementsProjs>
           <Styles.Costumers>
             <div className="TitleCostumers">
-              <h2>CLIENTES QUE CONFIAM</h2>
+              <h2>OS CLIENTES CONFIAM</h2>
             </div>
             <Costumers />
           </Styles.Costumers>
