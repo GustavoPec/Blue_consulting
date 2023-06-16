@@ -140,7 +140,7 @@ export const Consultancy = styled.div`
 
       @media (max-width: 767px) {
         display: flex;
-        width: 350px;
+        width: 340px;
       }
     }
 

@@ -10,8 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 
 @font-face {
   font-family: 'gobold';
-  src: font-url('../assets/Gobold Bold.otf') format('opentype'),
-  font-url("https://candyfonts.com/wp-data/2021/03/17/121604/Gobold Regular.otf") format("opentype");
+  src: font-url('../assets/Gobold Bold.otf') format('opentype')
 }
 
 
@@ -30,10 +29,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'gobold';
   font-weight: 600;
 
-  /* @media (max-width: 767px) {
+  @media (max-width: 767px) {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-  } */
+  }
 }
 
 button {
