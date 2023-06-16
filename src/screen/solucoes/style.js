@@ -97,7 +97,7 @@ export const SolucoesContent = styled.div`
     flex-wrap: wrap;
     gap: 20px;
     width: 100%;
-    height: 500px;
+    height: 400px;
 
     @media (max-width: 767px) {
       flex-wrap: none;
@@ -109,7 +109,7 @@ export const SolucoesContent = styled.div`
 `;
 
 export const ContainerInfos = styled.div`
-  width: 50%;
+  width: 40%;
   height: 100%;
   background-image: url(${Banner});
   background-position: right;
@@ -144,7 +144,7 @@ export const Differentials = styled.div`
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 
     @media (max-width: 767px) {
       width: 100%;

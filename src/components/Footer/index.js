@@ -46,7 +46,7 @@ export const Footer = () => {
               </span>
               <span
                 onClick={() => {
-                  navigate("/Blue");
+                  navigate("/Sobre");
                 }}
               >
                 Sobre nós

@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const Main = styled.div`
-  width: 401px;
+  width: auto;
   height: 75px;
   display: flex;
   flex-direction: row;
@@ -25,23 +25,24 @@ export const Dot = styled.div`
 export const Line = styled.div`
   height: auto;
   width: auto;
-  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   border-bottom: 5px solid #0076e2;
+  padding: 7px;
 
   @media (max-width: 767px) {
     width: 250px;
-    height: 50px;
+    height: 70px;
   }
 
   h1 {
     font-size: 18px;
     @media (max-width: 767px) {
       text-align: center;
-      width: 230px;
+      width: 240px;
+      padding-bottom: 5px;
     }
   }
 `;

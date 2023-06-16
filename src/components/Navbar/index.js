@@ -2,12 +2,12 @@ import * as Styles from "./style";
 import Logo from "../../assets/Logo.svg";
 import { Button } from "../Button";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+// import { useState } from "react";
 import { NavbarMenu } from "../MenuNAvBar";
 
 export const Navbar = () => {
   let navigate = useNavigate();
-  const [value, setValue] = useState("PT");
+  // const [value, setValue] = useState("PT");
 
   return (
     <Styles.Main>
@@ -32,7 +32,7 @@ export const Navbar = () => {
         </li>
         <li
           onClick={() => {
-            navigate("/Blue");
+            navigate("/Sobre");
           }}
         >
           SOBRE NÓS

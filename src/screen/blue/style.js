@@ -99,7 +99,7 @@ export const ContainerInfos = styled.div`
   .Title {
     width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 
     @media (max-width: 767px) {
       width: 100%;

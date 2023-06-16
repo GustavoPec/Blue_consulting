@@ -7,7 +7,8 @@ import contrato from "../../assets/Icons/ContratoIcon.png";
 import fluxo from "../../assets/Icons/FluxoIcon.png";
 import nfe from "../../assets/Icons/NfeIcon.png";
 import quality from "../../assets/Icons/QualityIcon.png";
-import Production from "../../assets/Icons/ProductionIcon.png";
+import production from "../../assets/Icons/ProductionIcon.png";
+import key from "../../assets/Icons/KeyIcon.png";
 import * as Styles from "./style";
 import { ModulesDiffs } from "./components/ModulesDiffs";
 
@@ -29,19 +30,22 @@ export const Solucoes = () => {
               </span>
             </div>
             <div className="SolucoesProjs">
-              <ProjectsL Title="PERFIS DE ACESSO" img={perfiluser} />
-              <ProjectsL Title="MÓDULOS DE CONTRATOS" img={contrato} />
+              <ProjectsL Title="PERFIS DE ACESSO" img={perfiluser} width="40px" />
+              <ProjectsL Title="MÓDULOS DE CONTRATOS" img={contrato} width="40px" />
               <ProjectsL
                 Title="AUTOMATIZAÇÃO DA COTAÇÃO DE COMPRAS"
                 img={compras}
+                width="40px"
               />
               <ProjectsL
-                Title="SOLUÇÕES NFe, Localização Brasil e J1BTAX"
+                Title="SOLUÇÕES NFE, LOCALIZAÇÃO BRASIL e J1BTAX"
                 img={nfe}
+                width="40px"
               />
-              <ProjectsL Title="FLUXO DE CAIXA" img={fluxo} />
-              <ProjectsL Title="Módulo PP" img={Production} />
-              <ProjectsL Title="Módulo QM" img={quality} />
+              <ProjectsL Title="FLUXO DE CAIXA" img={fluxo} width="40px" />
+              <ProjectsL Title="FORMAÇÃO DE KEY USERS" img={key} width="55px" />
+              <ProjectsL Title="MÓDULO PP" img={production} width="40px" />
+              <ProjectsL Title="MÓDULO QM" img={quality} width="40px" />
             </div>
           </Styles.SolucoesContent>
           <Styles.ContainerInfos />

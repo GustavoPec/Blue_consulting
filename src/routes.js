@@ -10,7 +10,7 @@ export const RoutesAuth = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Blue" element={<Blue />} />
+        <Route path="/Sobre" element={<Blue />} />
         <Route path="/Consultoria" element={<Consultoria />} />
         <Route path="/Contato" element={<Contato />} />
         <Route path="/Soluções" element={<Solucoes />} />

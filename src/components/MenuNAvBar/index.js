@@ -43,7 +43,7 @@ export const NavbarMenu = () => {
           background="#f7f7f7"
           height="50px"
           onClick={() => {
-            navigate("/Blue");
+            navigate("/Sobre");
           }}
         >
           SOBRE NÓS
