@@ -1,8 +1,8 @@
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import { ProjectsL } from "./components/projetsDotsLeft";
-import Compras from "../../assets/Icons/Compras.png";
-import Perfil from "../../assets/Icons/Perfil.png";
+import Compras from "../../assets/Icons/Compra.png";
+import Perfil from "../../assets/Icons/PerfilUser.png";
 import Contrato from "../../assets/Icons/Contrato.png";
 import Fluxo from "../../assets/Icons/Fluxo.png";
 import Nfe from "../../assets/Icons/Nfe.png";
