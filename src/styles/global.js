@@ -15,9 +15,9 @@ export const GlobalStyle = createGlobalStyle`
 
 @font-face{
     font-family:"GOBOLD";
-    src:url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldRegular.ttf") format("woff"),
-    url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldRegular.ttf") format("opentype"),
-    url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldRegular.ttf") format("truetype");
+    src: font-url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldBold.ttf") format("woff"),
+    font-url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldBold.ttf") format("opentype"),
+    font-url("https://candyfonts.com/wp-data/2019/03/22/41942/GoboldBold.ttf") format("truetype");
 }
 
     body{

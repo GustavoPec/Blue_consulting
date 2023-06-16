@@ -33,11 +33,15 @@ export const Line = styled.div`
   border-bottom: 5px solid #0076e2;
 
   @media (max-width: 767px) {
-    width: 270px;
+    width: 250px;
     height: 50px;
   }
 
   h1 {
     font-size: 18px;
+    @media (max-width: 767px) {
+      text-align: center;
+      width: 180px;
+    }
   }
 `;

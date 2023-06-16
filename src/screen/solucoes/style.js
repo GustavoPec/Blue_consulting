@@ -64,6 +64,12 @@ export const SolucoesContent = styled.div`
     gap: 15px;
     width: 250px;
 
+    @media (max-width: 767px) {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+
     h1 {
       width: 180px;
       font-size: 40px;
@@ -75,6 +81,11 @@ export const SolucoesContent = styled.div`
 
     span {
       padding-left: 7px;
+
+      @media (max-width: 767px) {
+        text-align: center;
+        width: 310px;
+      }
     }
   }
 
