@@ -25,10 +25,8 @@ export const Home = () => {
             data-aos-easing="linear"
             className="SpaceText"
           >
-            <h2>
-              DESENHAMOS E <br /> IMPLEMENTAMOS SAP <br /> PARA O SEU NEGÓCIO
-            </h2>
-            <br />
+            <h2>DESENHAMOS E IMPLEMENTAMOS SAP PARA O SEU NEGÓCIO</h2>
+
             <span>
               Ter uma plataforma tecnológica e integrada reduz a complexidades
               das operações e prepara seu negócio para um crescimento

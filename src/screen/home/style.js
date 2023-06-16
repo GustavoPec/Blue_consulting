@@ -52,7 +52,7 @@ export const Introduction = styled.div`
     background-position: left;
     background-image: url(${bannerSAP});
     background-attachment: fixed;
-    background-position: center right 55%;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -75,12 +75,18 @@ export const Introduction = styled.div`
     @media (max-width: 767px) {
       display: flex;
       flex-direction: column;
-      align-items: start;
+      align-items: center;
       justify-content: center;
-      width: 365px;
+      width: 100%;
+      text-align: center;
+      gap: 20px;
 
       h2 {
+        width: 325px;
         font-size: 40px;
+      }
+      span {
+        width: 365px;
       }
     }
 
@@ -131,6 +137,11 @@ export const Consultancy = styled.div`
       border-width: 7px;
       border-image: linear-gradient(to right, #0076e2 70%, #101e2b 30%);
       border-image-slice: 0 0 100% 0;
+
+      @media (max-width: 767px) {
+        display: flex;
+        width: 350px;
+      }
     }
 
     @media (max-width: 767px) {
@@ -198,12 +209,11 @@ export const Projects = styled.div`
       width: 380px;
 
       @media (max-width: 767px) {
-      width: auto;
-      text-align: center;
-      font-size: 60px;
-
-
-    }
+        width: auto;
+        text-align: center;
+        font-size: 50px;
+        background-image: linear-gradient(to top, #0076e2 20px, transparent 0%);
+      }
     }
   }
 
@@ -263,6 +273,10 @@ export const Forms = styled.div`
     h2 {
       font-size: 70px;
       color: #0076e2;
+
+      @media (max-width: 767px) {
+        font-size: 50px;
+      }
     }
 
     span {

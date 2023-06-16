@@ -196,6 +196,7 @@ export const Costumers = styled.div`
     width: 430px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     h2 {
       font-size: 40px;
@@ -211,6 +212,11 @@ export const Costumers = styled.div`
         #101e2b 100%
       );
       border-image-slice: 0 0 100% 0;
+
+      @media (max-width: 767px) {
+        display: flex;
+        width: 300px;
+      }
     }
 
     @media (max-width: 767px) {

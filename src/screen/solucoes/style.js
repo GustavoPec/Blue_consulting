@@ -143,7 +143,7 @@ export const Differentials = styled.div`
 
   .DifferentialsTitle {
     @media (max-width: 767px) {
-      width: 305px;
+      width: 400px;
       text-align: center;
     }
     h1 {

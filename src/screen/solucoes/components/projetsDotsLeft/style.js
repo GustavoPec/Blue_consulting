@@ -8,7 +8,7 @@ export const Main = styled.div`
   align-items: end;
 
   @media (max-width: 767px) {
-    width: 90%;
+    width: auto;
   }
 `;
 
@@ -41,7 +41,7 @@ export const Line = styled.div`
     font-size: 18px;
     @media (max-width: 767px) {
       text-align: center;
-      width: 180px;
+      width: 230px;
     }
   }
 `;
