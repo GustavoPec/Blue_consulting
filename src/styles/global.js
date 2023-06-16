@@ -10,9 +10,9 @@ export const GlobalStyle = createGlobalStyle`
 
 @font-face {
   font-family: 'GOBOLD';
-  src: font-url('../assets/Gobold Bold.otf') format('opentype'),
-   font-url('../assets/Gobold Bold.otf') format('woff'),
-   font-url('../assets/Gobold Bold.otf') format('truetype');
+  src: font-url('../assets/GoboldBold.otf') format('opentype');
+   src: font-url('../assets/GoboldBold.otf') format('woff');
+   src: font-url('../assets/GoboldBold.otf') format('truetype');
 }
 
 /* @font-face{
