@@ -22,7 +22,7 @@ export const Solucoes = () => {
         <Styles.ContainerSolucoes>
           <Styles.SolucoesContent>
             <div className="SolucoesText">
-              <h1>Soluções</h1>
+              <h2>Soluções</h2>
               <span>
                 Aumente a eficiência dos seus processos, alavancando a{" "}
                 <strong>confiabilidade de seus negócios integrados</strong> e
@@ -30,8 +30,16 @@ export const Solucoes = () => {
               </span>
             </div>
             <div className="SolucoesProjs">
-              <ProjectsL Title="PERFIS DE ACESSO" img={perfiluser} width="40px" />
-              <ProjectsL Title="MÓDULOS DE CONTRATOS" img={contrato} width="40px" />
+              <ProjectsL
+                Title="PERFIS DE ACESSO"
+                img={perfiluser}
+                width="40px"
+              />
+              <ProjectsL
+                Title="MÓDULOS DE CONTRATOS"
+                img={contrato}
+                width="40px"
+              />
               <ProjectsL
                 Title="AUTOMATIZAÇÃO DA COTAÇÃO DE COMPRAS"
                 img={compras}

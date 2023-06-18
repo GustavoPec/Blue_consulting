@@ -71,6 +71,13 @@ export const Introduction = styled.div`
 
   .SpaceText {
     width: 470px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      line-height: 60px;
+    }
 
     @media (max-width: 767px) {
       display: flex;
@@ -84,6 +91,7 @@ export const Introduction = styled.div`
       h2 {
         width: 325px;
         font-size: 40px;
+        line-height: 50px;
       }
       span {
         width: 365px;
@@ -140,7 +148,8 @@ export const Consultancy = styled.div`
 
       @media (max-width: 767px) {
         display: flex;
-        width: 340px;
+        width: 280px;
+        line-height: 50px;
       }
     }
 
@@ -203,10 +212,12 @@ export const Projects = styled.div`
       font-size: 35px;
       width: 100%;
     }
+
     h2 {
+      display: flex;
+      width: auto;
       font-size: 70px;
       background-image: linear-gradient(to top, #0076e2 35px, transparent 0%);
-      width: 380px;
 
       @media (max-width: 767px) {
         width: auto;

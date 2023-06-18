@@ -2,17 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-@font-face {
-  font-family: 'gobold';
-  src: font-url('../assets/Gobold Bold.otf') format('opentype')
-}
-
 
     body{
             margin: 0;
@@ -26,14 +21,10 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'gobold';
-  font-weight: 600;
-
-  @media (max-width: 767px) {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-  }
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
 }
+
 
 button {
     cursor: pointer;

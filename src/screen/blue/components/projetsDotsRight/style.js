@@ -28,7 +28,7 @@ export const Dot = styled.div`
 
 export const Line = styled.div`
   border-bottom: 5px solid #0076e2;
-  height: 80px;
+  height: 90px;
   width: 290px;
   display: flex;
   flex-direction: column;

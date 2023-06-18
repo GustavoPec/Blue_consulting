@@ -30,6 +30,11 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    padding-bottom: 50px;
+  }
 `;
 
 export const ContainerSolucoes = styled.div`
@@ -72,13 +77,14 @@ export const SolucoesContent = styled.div`
       justify-content: center;
     }
 
-    h1 {
+    h2 {
       width: 180px;
       font-size: 40px;
       border-style: solid;
       border-width: 7px;
       border-image: linear-gradient(to right, #0076e2 70%, #101e2b 30%);
       border-image-slice: 0 0 100% 0;
+      text-align: center;
     }
 
     span {
@@ -131,8 +137,8 @@ export const Differentials = styled.div`
   width: 100%;
 
   @media (max-width: 767px) {
-    height: 1150px;
-    justify-content: start;
+    height: 1200px;
+    justify-content: center;
     background-attachment: fixed;
     background-position: center;
     background-size: 90%;
@@ -155,7 +161,8 @@ export const Differentials = styled.div`
 
   .DifferentialsTitle {
     @media (max-width: 767px) {
-      width: 400px;
+      width: 320px;
+      display: flex;
       text-align: center;
     }
     h1 {

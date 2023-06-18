@@ -216,7 +216,7 @@ export const Costumers = styled.div`
 
       @media (max-width: 767px) {
         display: flex;
-        width: 280px;
+        width: 390px;
       }
     }
 
