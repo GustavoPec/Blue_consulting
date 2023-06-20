@@ -15,7 +15,7 @@ export const Footer = styled.div`
   justify-content: center;
 
   @media (max-width: 767px) {
-    height: 750px;
+    height: 850px;
     background-size: cover;
   }
 
@@ -76,7 +76,7 @@ export const Footer = styled.div`
     border-left: 2px solid white;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     padding-left: 5px;
     color: white;
 

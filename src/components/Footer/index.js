@@ -72,6 +72,13 @@ export const Footer = () => {
               >
                 Contato
               </span>
+              <span
+                onClick={() => {
+                  navigate("/Política-Privacidade");
+                }}
+              >
+                Política de Privacidade
+              </span>
             </div>
           </div>
           <div
@@ -85,6 +92,22 @@ export const Footer = () => {
               <p>Contato</p>
               <span>contato@blueconsulting.tec.br</span>
             </div>
+          </div>
+          <div
+            className="Box"
+            data-aos="fade-right"
+            data-aos-delay="1200"
+            data-aos-duration="200"
+            data-aos-easing="linear"
+          >
+            <p>Desenvolvimento</p>
+            <span
+              onClick={() => {
+                window.open("https://www.gustavofront.com.br/");
+              }}
+            >
+              <u>Gustavo Peçanha</u>
+            </span>
           </div>
         </div>
       </div>
