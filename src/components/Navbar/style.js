@@ -10,6 +10,10 @@ export const Main = styled.div`
   gap: 140px;
   z-index: 1;
 
+  img {
+    cursor: pointer;
+  }
+
   @media (max-width: 767px) {
     width: 100%;
     gap: 0;

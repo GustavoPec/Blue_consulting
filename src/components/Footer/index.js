@@ -22,7 +22,14 @@ export const Footer = () => {
             data-aos-duration="200"
             data-aos-easing="linear"
           >
-            <img src={LogoB} alt="Logo" />
+            <img
+              src={LogoB}
+              alt="Logo"
+              onClick={() => {
+                navigate("/");
+                window.scrollTo(0, 0);
+              }}
+            />
             <div className="Icons">
               <i className="ph ph-instagram-logo"></i>
               <i className="ph ph-linkedin-logo"></i>
@@ -40,6 +47,7 @@ export const Footer = () => {
               <span
                 onClick={() => {
                   navigate("/");
+                  window.scrollTo(0, 0);
                 }}
               >
                 Inicío
@@ -47,6 +55,7 @@ export const Footer = () => {
               <span
                 onClick={() => {
                   navigate("/Sobre");
+                  window.scrollTo(0, 0);
                 }}
               >
                 Sobre nós
@@ -54,6 +63,7 @@ export const Footer = () => {
               <span
                 onClick={() => {
                   navigate("/Consultoria");
+                  window.scrollTo(0, 0);
                 }}
               >
                 Consultoria SAP
@@ -61,6 +71,7 @@ export const Footer = () => {
               <span
                 onClick={() => {
                   navigate("/Soluções");
+                  window.scrollTo(0, 0);
                 }}
               >
                 Soluções
@@ -68,6 +79,7 @@ export const Footer = () => {
               <span
                 onClick={() => {
                   navigate("/Contato");
+                  window.scrollTo(0, 0);
                 }}
               >
                 Contato
@@ -75,6 +87,7 @@ export const Footer = () => {
               <span
                 onClick={() => {
                   navigate("/Política-Privacidade");
+                  window.scrollTo(0, 0);
                 }}
               >
                 Política de Privacidade
@@ -104,6 +117,7 @@ export const Footer = () => {
             <span
               onClick={() => {
                 window.open("https://www.gustavofront.com.br/");
+                window.scrollTo(0, 0);
               }}
             >
               <u>Gustavo Peçanha</u>

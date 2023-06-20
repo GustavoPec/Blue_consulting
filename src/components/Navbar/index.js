@@ -11,7 +11,15 @@ export const Navbar = () => {
 
   return (
     <Styles.Main>
-      <img src={Logo} alt="Logo" width="150px" />
+      <img
+        src={Logo}
+        alt="Logo"
+        width="150px"
+        onClick={() => {
+          navigate("/");
+          window.scrollTo(0, 0);
+        }}
+      />
       {/* <div className="Selector">
         <select name="select" defaultValue={value}>
           <option value="PT">PT</option>
@@ -26,6 +34,7 @@ export const Navbar = () => {
         <li
           onClick={() => {
             navigate("/");
+            window.scrollTo(0, 0);
           }}
         >
           INÍCIO
@@ -33,6 +42,7 @@ export const Navbar = () => {
         <li
           onClick={() => {
             navigate("/Sobre");
+            window.scrollTo(0, 0);
           }}
         >
           SOBRE NÓS
@@ -40,6 +50,7 @@ export const Navbar = () => {
         <li
           onClick={() => {
             navigate("/Consultoria");
+            window.scrollTo(0, 0);
           }}
         >
           CONSULTORIA SAP
@@ -47,6 +58,7 @@ export const Navbar = () => {
         <li
           onClick={() => {
             navigate("/Soluções");
+            window.scrollTo(0, 0);
           }}
         >
           SOLUÇÕES
@@ -57,6 +69,7 @@ export const Navbar = () => {
             text="CONTATO"
             onClick={() => {
               navigate("/Contato");
+              window.scrollTo(0, 0);
             }}
           />
         </div>

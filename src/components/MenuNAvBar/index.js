@@ -32,6 +32,7 @@ export const NavbarMenu = () => {
           height="50px"
           onClick={() => {
             navigate("/");
+            window.scrollTo(0, 0);
           }}
         >
           INÍCIO
@@ -44,6 +45,7 @@ export const NavbarMenu = () => {
           height="50px"
           onClick={() => {
             navigate("/Sobre");
+            window.scrollTo(0, 0);
           }}
         >
           SOBRE NÓS
@@ -56,6 +58,7 @@ export const NavbarMenu = () => {
           height="50px"
           onClick={() => {
             navigate("/Consultoria");
+            window.scrollTo(0, 0);
           }}
         >
           CONSULTORIA SAP
@@ -68,6 +71,7 @@ export const NavbarMenu = () => {
           height="50px"
           onClick={() => {
             navigate("/Soluções");
+            window.scrollTo(0, 0);
           }}
         >
           SOLUÇÕES
@@ -80,6 +84,7 @@ export const NavbarMenu = () => {
           height="50px"
           onClick={() => {
             navigate("/Contato");
+            window.scrollTo(0, 0);
           }}
         >
           CONTATO

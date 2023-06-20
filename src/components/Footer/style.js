@@ -52,6 +52,7 @@ export const Footer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 30px;
   }
 
   .Links {
@@ -61,6 +62,10 @@ export const Footer = styled.div`
     justify-content: center;
     align-items: start;
     gap: 50px;
+
+    img {
+      cursor: pointer;
+    }
 
     @media (max-width: 767px) {
       width: 100%;
