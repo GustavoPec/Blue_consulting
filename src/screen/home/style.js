@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import bannerSAP from "../../assets/BannerSAP.png";
+import bannerSAPMobile from "../../assets/BannerMobile.png";
 import bannerInfo from "../../assets/BannerProj.png";
 import patern1 from "../../assets/paternBG1.png";
 import patern2 from "../../assets/paternBG2.png";
@@ -50,9 +51,9 @@ export const Introduction = styled.div`
   @media (max-width: 767px) {
     gap: 20px;
     background-position: left;
-    background-image: url(${bannerSAP});
+    background-image: url(${bannerSAPMobile});
     background-attachment: fixed;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }

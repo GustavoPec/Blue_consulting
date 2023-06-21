@@ -15,7 +15,7 @@ export const Footer = styled.div`
   justify-content: center;
 
   @media (max-width: 767px) {
-    height: 850px;
+    height: 900px;
     background-size: cover;
   }
 
