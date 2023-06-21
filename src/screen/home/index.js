@@ -14,9 +14,9 @@ export const Home = () => {
 
   return (
     <Styles.Main>
-      <div className="Navbar">
+      <Styles.Menu>
         <Navbar />
-      </div>
+      </Styles.Menu>
 
       <Styles.Introduction>
         <div className="Intro">

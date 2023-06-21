@@ -13,16 +13,21 @@ export const Main = styled.div`
   align-items: center;
   justify-content: center;
   background: #f7f7f7;
+`;
 
-  .Navbar {
-    position: sticky;
-    top: 0;
-    z-index: 2;
+export const Menu = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(5px);
+  background: #f7f7f7;
+  z-index: 1;
+
+  @media (max-width: 767px) {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f7f7f7;
   }
 `;
 
@@ -247,7 +252,7 @@ export const Projects = styled.div`
 
 export const Forms = styled.div`
   width: 100%;
-  height: 600px;
+  height: 800px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -262,7 +267,7 @@ export const Forms = styled.div`
   @media (max-width: 767px) {
     flex-direction: column;
     height: 1300px;
-    gap: 0;
+    gap: 30px;
     background-position: right;
     background-size: 70%;
     justify-content: start;
@@ -272,7 +277,7 @@ export const Forms = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 90%;
+    height: 70%;
 
     @media (max-width: 767px) {
       justify-content: center;

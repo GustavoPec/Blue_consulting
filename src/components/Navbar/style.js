@@ -8,7 +8,7 @@ export const Main = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 140px;
-  z-index: 1;
+  padding: 10px;
 
   img {
     cursor: pointer;

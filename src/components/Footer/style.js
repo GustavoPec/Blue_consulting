@@ -56,7 +56,7 @@ export const Footer = styled.div`
   }
 
   .Links {
-    width: 900px;
+    width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -84,6 +84,7 @@ export const Footer = styled.div`
     gap: 15px;
     padding-left: 5px;
     color: white;
+    width: auto;
 
     span {
       cursor: pointer;
