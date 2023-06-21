@@ -110,6 +110,7 @@ export const SolucoesContent = styled.div`
       height: 1000px;
       align-items: center;
       justify-content: center;
+      gap: 30px;
     }
   }
 `;

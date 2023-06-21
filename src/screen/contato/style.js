@@ -48,7 +48,7 @@ export const ContactTitle = styled.div`
 
 export const Forms = styled.div`
   width: 400px;
-  height: 500px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -88,6 +88,10 @@ export const Forms = styled.div`
       flex-direction: column;
       gap: 10px;
       width: 350px;
+
+      u {
+        cursor: pointer;
+      }
     }
 
     .LgpdAgree {

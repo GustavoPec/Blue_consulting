@@ -388,6 +388,10 @@ export const Forms = styled.div`
       flex-direction: column;
       gap: 10px;
       width: 350px;
+
+      u {
+        cursor: pointer;
+      }
     }
 
     .LgpdAgree {

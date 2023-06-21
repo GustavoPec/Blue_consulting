@@ -160,7 +160,7 @@ export const Privacidade = () => {
           lista. Portanto, a requisição de cancelamento deve ser feita novamente
           caso seja de seu interesse. Para alterar suas informações pessoais ou
           mesmo excluí-las do nosso banco de dados, basta enviar um email para
-          <strong>contato@blueconsulting.tec.br</strong>
+          <strong> contato@blueconsulting.tec.br</strong>
         </span>
         <span>
           <strong>Mudanças na Política de Privacidade</strong>

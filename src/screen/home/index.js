@@ -169,7 +169,7 @@ export const Home = () => {
           className="FormSpace"
         >
           <form
-            action="https://formsubmit.co/gustavogamerhg@gmail.com"
+            action="https://formsubmit.co/contato@blueconsulting.tec.br"
             method="POST"
           >
             <input type="hidden" name="_captcha" value="false" />
@@ -254,8 +254,12 @@ export const Home = () => {
               required
               autoComplete="off"
             />
-            <input type="hidden" name="_next" value="http://localhost:3000/" />
-            {/* <div className="LGPD">
+            <input
+              type="hidden"
+              name="_next"
+              value="http://www.blueconsulting.tec.br/"
+            />
+            <div className="LGPD">
               <div className="LgpdAgree">
                 <input
                   required
@@ -276,10 +280,18 @@ export const Home = () => {
                 />
                 <span>
                   Ao informar meus dados eu concordo com <br /> a{" "}
-                  <u>Politica de Privacidade</u>.
+                  <u
+                    onClick={() => {
+                      navigate("/Política-Privacidade");
+                      window.scrollTo(0, 0);
+                    }}
+                  >
+                    Politica de Privacidade
+                  </u>
+                  .
                 </span>
               </div>
-            </div> */}
+            </div>
             <button type="submit">Enviar</button>
           </form>
         </div>

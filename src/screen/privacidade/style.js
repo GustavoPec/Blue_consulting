@@ -29,7 +29,7 @@ export const Container = styled.div`
   }
 
   span {
-    text-align: justify;
+    text-align: left;
     padding: 15px;
   }
 

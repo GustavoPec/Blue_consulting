@@ -37,7 +37,7 @@ export const BgInfos = styled.div`
     flex-direction: column;
 
     h1 {
-      width: 135px;
+      width: 145px;
       border: none;
       font-size: 20px;
     }

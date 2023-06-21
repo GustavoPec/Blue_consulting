@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import * as Styles from "./style";
 
 export const Contato = () => {
+  let Navigate = useNavigate();
+
   return (
     <Styles.Main>
       <Styles.Navbar>
@@ -14,7 +17,7 @@ export const Contato = () => {
             <h1>ENTRE EM CONTATO</h1>
           </Styles.ContactTitle>
           <form
-            action="https://formsubmit.co/gustavogamerhg@gmail.com"
+            action="https://formsubmit.co/contato@blueconsulting.tec.br"
             method="POST"
           >
             <input type="hidden" name="_captcha" value="false" />
@@ -61,8 +64,12 @@ export const Contato = () => {
               autoComplete="off"
             />
 
-            <input type="hidden" name="_next" value="http://localhost:3000/" />
-            {/* <div className="LGPD">
+            <input
+              type="hidden"
+              name="_next"
+              value="http://www.blueconsulting.tec.br/"
+            />
+            <div className="LGPD">
               <div className="LgpdAgree">
                 <input
                   required
@@ -83,10 +90,18 @@ export const Contato = () => {
                 />
                 <span>
                   Ao informar meus dados eu concordo com <br /> a{" "}
-                  <u>Politica de Privacidade</u>.
+                  <u
+                    onClick={() => {
+                      Navigate("/Política-Privacidade");
+                      window.scrollTo(0, 0);
+                    }}
+                  >
+                    Politica de Privacidade
+                  </u>
+                  .
                 </span>
               </div>
-            </div> */}
+            </div>
             <button type="submit">Enviar</button>
           </form>
         </Styles.Forms>
