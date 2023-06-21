@@ -39,7 +39,6 @@ export const Home = () => {
             onClick={() => {
               navigate("/Soluções");
             }}
-            bg="#101e2b"
             text="Saiba mais"
           />
         </div>

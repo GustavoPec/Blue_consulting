@@ -52,7 +52,7 @@ export const Introduction = styled.div`
     gap: 20px;
     background-position: left;
     background-image: url(${bannerSAPMobile});
-    background-attachment: fixed;
+    background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  ${(props) => props}
+  background: #101e2b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,6 +14,10 @@ export const Main = styled.div`
   font-weight: bold;
   margin-left: 20px;
   cursor: pointer;
+
+  @media (max-width: 767px) {
+    background: #0076e2;
+  }
 
   &:hover {
     scale: 1.1;
