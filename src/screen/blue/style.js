@@ -27,6 +27,10 @@ export const Container = styled.div`
   @media (max-width: 767px) {
     height: 1400px;
   }
+
+  @media (min-width: 767px) and (max-width: 1023px) {
+    height: 1300px;
+  }
 `;
 
 export const ContinerOutsiteBlue = styled.div`
@@ -66,6 +70,11 @@ export const ContainerPerson = styled.div`
 
   @media (max-width: 767px) {
     display: none;
+  }
+
+  @media (min-width: 767px) and (max-width: 1023px) {
+    background-size: 480px;
+    height: 1300px;
   }
 `;
 

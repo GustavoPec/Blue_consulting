@@ -20,6 +20,11 @@ export const Main = styled.div`
     justify-content: space-around;
   }
 
+  @media (min-width: 767px) and (max-width: 1023px) {
+    justify-content: center;
+    gap: 100px;
+  }
+
   .MenuBar {
     display: none;
 
@@ -43,6 +48,10 @@ export const Main = styled.div`
     @media (max-width: 767px) {
       display: none;
     }
+
+    @media (min-width: 767px) and (max-width: 1023px) {
+      font-size: 16px;
+    }
   }
 
   li {
@@ -55,6 +64,12 @@ export const Main = styled.div`
 
     &:hover {
       border-bottom: 2px solid #0076e2;
+    }
+
+    @media (min-width: 767px) and (max-width: 1023px) {
+      &:hover {
+        border-bottom: 2px solid transparent;
+      }
     }
   }
 

@@ -11,6 +11,7 @@ export const BgDiff = styled.div`
   width: 90px;
   height: 90px;
   border-radius: 60px 10px 0px 10px;
+  
 `;
 
 export const BgInfos = styled.div`

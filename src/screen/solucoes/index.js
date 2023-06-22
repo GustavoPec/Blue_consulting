@@ -58,31 +58,6 @@ export const Solucoes = () => {
           </Styles.SolucoesContent>
           <Styles.ContainerInfos />
         </Styles.ContainerSolucoes>
-        {/* <Styles.ContainerSolucoes>
-          <Styles.ContainerInfos>
-            <div className="Infos">
-              <div className="SolucoesText">
-                <div className="SolucoesTitle">
-                  
-                </div>
-                <div className="SolucoesSubText">
-                  
-                </div>
-              </div>
-
-              <div className="ModuleSolucoes">
-                <ProjectsL Title="PERFIS DE ACESSO" img={Perfil} />
-                <ProjectsL Title="MÓDULOS DE CONTRATOS" img={Contrato} />
-                <ProjectsL Title="SOLUÇÕES NFe" img={Nfe} />
-                <ProjectsL Title="FLUXO DE CAIXA" img={Fluxo} />
-                <ProjectsL
-                  Title="AUTOMATIZAÇÃO DA COTAÇÃO DE COMPRAS"
-                  img={Compras}
-                />
-              </div>
-            </div>
-          </Styles.ContainerInfos>
-        </Styles.ContainerSolucoes> */}
         <Styles.Differentials>
           <div className="DifferentialsTitle">
             <h1>DIFERENCIAIS DE ESCOLHER A BLUE</h1>

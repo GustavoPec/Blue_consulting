@@ -64,6 +64,15 @@ export const Introduction = styled.div`
     background-size: cover;
   }
 
+  @media (min-width: 767px) and (max-width: 1023px) {
+    background-position: center;
+    background-image: url(${bannerSAPMobile});
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .Intro {
     width: 40%;
     display: flex;
@@ -71,6 +80,11 @@ export const Introduction = styled.div`
     align-items: end;
 
     @media (max-width: 767px) {
+      width: 100%;
+      justify-content: center;
+    }
+
+    @media (min-width: 767px) and (max-width: 1023px) {
       width: 100%;
       justify-content: center;
     }
@@ -84,6 +98,10 @@ export const Introduction = styled.div`
 
     h2 {
       line-height: 60px;
+    }
+
+    @media (min-width: 767px) and (max-width: 1023px) {
+      text-align: center;
     }
 
     @media (max-width: 767px) {
@@ -196,6 +214,11 @@ export const Projects = styled.div`
   background-size: cover;
   gap: 90px;
 
+  @media (min-width: 767px) and (max-width: 1023px) {
+    justify-content: space-evenly;
+    gap: 0;
+  }
+
   @media (max-width: 767px) {
     flex-direction: column;
     height: 600px;
@@ -215,6 +238,10 @@ export const Projects = styled.div`
       text-align: center;
     }
 
+    @media (min-width: 767px) and (max-width: 1023px) {
+      width: 350px;
+    }
+
     span {
       font-size: 35px;
       width: 100%;
@@ -232,6 +259,10 @@ export const Projects = styled.div`
         font-size: 50px;
         background-image: linear-gradient(to top, #0076e2 20px, transparent 0%);
       }
+
+      @media (min-width: 767px) and (max-width: 1023px) {
+        font-size: 60px;
+      }
     }
   }
 
@@ -247,6 +278,9 @@ export const Projects = styled.div`
       width: 95%;
       height: auto;
       justify-content: center;
+    }
+
+    @media (min-width: 767px) and (max-width: 1023px) {
     }
   }
 `;

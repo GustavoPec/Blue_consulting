@@ -257,7 +257,7 @@ export const Home = () => {
             <input
               type="hidden"
               name="_next"
-              value="http://www.blueconsulting.tec.br/"
+              value="https://blue-consulting-sigma.vercel.app/Confirma%C3%A7%C3%A3o-Contato"
             />
             <div className="LGPD">
               <div className="LgpdAgree">

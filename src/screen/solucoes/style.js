@@ -49,6 +49,10 @@ export const ContainerSolucoes = styled.div`
     width: 100%;
     height: 1000px;
   }
+
+  @media (min-width: 767px) and (max-width: 1023px) {
+    width: 100%;
+  }
 `;
 
 export const SolucoesContent = styled.div`
@@ -62,6 +66,12 @@ export const SolucoesContent = styled.div`
   @media (max-width: 767px) {
     align-items: center;
     width: 100%;
+  }
+
+  @media (min-width: 767px) and (max-width: 1023px) {
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   .SolucoesText {
@@ -112,6 +122,10 @@ export const SolucoesContent = styled.div`
       justify-content: center;
       gap: 30px;
     }
+
+    @media (min-width: 767px) and (max-width: 1023px) {
+      width: 800px;
+    }
   }
 `;
 
@@ -124,6 +138,10 @@ export const ContainerInfos = styled.div`
   background-size: 100%;
 
   @media (max-width: 767px) {
+    display: none;
+  }
+
+  @media (min-width: 767px) and (max-width: 1023px) {
     display: none;
   }
 `;
@@ -157,6 +175,14 @@ export const Differentials = styled.div`
       width: 100%;
       justify-content: center;
       flex-direction: column;
+    }
+
+    @media (min-width: 767px) and (max-width: 1023px) {
+      width: 100%;
+      height: auto;
+      align-items: center;
+      gap: 0;
+      justify-content: space-evenly;
     }
   }
 

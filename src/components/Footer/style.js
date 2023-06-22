@@ -19,6 +19,12 @@ export const Footer = styled.div`
     background-size: cover;
   }
 
+  @media (min-width: 767px) and (max-width: 1023px) {
+    padding: 20px;
+    height: 500px;
+    background-size: cover;
+  }
+
   .FooterPattern {
     width: 100%;
     display: flex;

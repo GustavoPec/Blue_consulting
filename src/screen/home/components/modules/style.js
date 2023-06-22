@@ -11,6 +11,10 @@ export const Main = styled.div`
   justify-content: center;
   position: relative;
 
+  @media (min-width: 767px) and (max-width: 1023px) {
+    width: 310px;
+  }
+
   img {
     position: absolute;
     bottom: 140px;
