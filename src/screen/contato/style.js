@@ -31,7 +31,7 @@ export const Container = styled.div`
   background-size: contain;
 
   @media (max-width: 767px) {
-    height: 700px;
+    height: 800px;
     justify-content: start;
     padding-top: 40px;
   }
@@ -58,7 +58,7 @@ export const Forms = styled.div`
 
   @media (max-width: 767px) {
     flex-direction: column;
-    height: 500px;
+    height: 600px;
     gap: 20px;
   }
 
