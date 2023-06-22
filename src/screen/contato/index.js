@@ -67,7 +67,7 @@ export const Contato = () => {
             <input
               type="hidden"
               name="_next"
-              value="https://blue-consulting-sigma.vercel.app/Confirma%C3%A7%C3%A3o-Contato"
+              value="https://blue-consulting-sigma.vercel.app/Confirmação-Contato"
             />
             <div className="LGPD">
               <div className="LgpdAgree">
