@@ -12,7 +12,6 @@ export const Main = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #f7f7f7;
 `;
 
 export const Menu = styled.div`
@@ -21,15 +20,8 @@ export const Menu = styled.div`
   align-items: center;
   justify-content: center;
   position: sticky;
-  top: 0;
-  backdrop-filter: blur(5px);
   background: #f7f7f7;
   z-index: 1;
-
-  @media (max-width: 767px) {
-    width: 100%;
-    position: static;
-  }
 `;
 
 export const Introduction = styled.div`
@@ -54,18 +46,9 @@ export const Introduction = styled.div`
     background-size: contain;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     gap: 20px;
     background-position: left;
-    background-image: url(${bannerSAPMobile});
-    background-attachment: local;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  @media (min-width: 767px) and (max-width: 1023px) {
-    background-position: center;
     background-image: url(${bannerSAPMobile});
     background-attachment: local;
     background-position: center;
@@ -79,7 +62,7 @@ export const Introduction = styled.div`
     justify-content: end;
     align-items: end;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 100%;
       justify-content: center;
     }
@@ -104,7 +87,7 @@ export const Introduction = styled.div`
       text-align: center;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -154,7 +137,7 @@ export const Consultancy = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     height: 900px;
     gap: 20px;
   }
@@ -171,14 +154,14 @@ export const Consultancy = styled.div`
       border-image: linear-gradient(to right, #0076e2 70%, #101e2b 30%);
       border-image-slice: 0 0 100% 0;
 
-      @media (max-width: 767px) {
+      @media (max-width: 820px) {
         display: flex;
         width: 280px;
         line-height: 50px;
       }
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -194,7 +177,7 @@ export const Consultancy = styled.div`
     flex-direction: row;
     gap: 40px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       flex-direction: column;
     }
   }
@@ -219,7 +202,7 @@ export const Projects = styled.div`
     gap: 0;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     flex-direction: column;
     height: 600px;
     gap: 20px;
@@ -233,7 +216,7 @@ export const Projects = styled.div`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 100%;
       text-align: center;
     }
@@ -253,7 +236,7 @@ export const Projects = styled.div`
       font-size: 70px;
       background-image: linear-gradient(to top, #0076e2 35px, transparent 0%);
 
-      @media (max-width: 767px) {
+      @media (max-width: 820px) {
         width: auto;
         text-align: center;
         font-size: 50px;
@@ -274,13 +257,11 @@ export const Projects = styled.div`
     justify-content: center;
     gap: 20px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 95%;
       height: auto;
+      align-items: center;
       justify-content: center;
-    }
-
-    @media (min-width: 767px) and (max-width: 1023px) {
     }
   }
 `;
@@ -299,7 +280,7 @@ export const Forms = styled.div`
   background-size: 50%;
   gap: 90px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     flex-direction: column;
     height: 1300px;
     gap: 30px;
@@ -314,7 +295,7 @@ export const Forms = styled.div`
     justify-content: space-evenly;
     height: 70%;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       justify-content: center;
       align-items: start;
       height: auto;
@@ -326,7 +307,7 @@ export const Forms = styled.div`
       font-size: 70px;
       color: #0076e2;
 
-      @media (max-width: 767px) {
+      @media (max-width: 820px) {
         font-size: 50px;
       }
     }
@@ -362,7 +343,7 @@ export const Forms = styled.div`
     width: 440px;
     line-height: 30px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 310px;
     }
   }

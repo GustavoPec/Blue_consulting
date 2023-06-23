@@ -31,7 +31,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     width: 100%;
     padding-bottom: 50px;
   }
@@ -45,13 +45,9 @@ export const ContainerSolucoes = styled.div`
   align-items: end;
   justify-content: space-between;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     width: 100%;
     height: 1000px;
-  }
-
-  @media (min-width: 767px) and (max-width: 1023px) {
-    width: 100%;
   }
 `;
 
@@ -63,15 +59,9 @@ export const SolucoesContent = styled.div`
   justify-content: space-evenly;
   align-items: start;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     align-items: center;
     width: 100%;
-  }
-
-  @media (min-width: 767px) and (max-width: 1023px) {
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
   }
 
   .SolucoesText {
@@ -80,7 +70,7 @@ export const SolucoesContent = styled.div`
     gap: 15px;
     width: 310px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 100%;
       height: 300px;
       align-items: center;
@@ -100,7 +90,7 @@ export const SolucoesContent = styled.div`
     span {
       padding-left: 7px;
 
-      @media (max-width: 767px) {
+      @media (max-width: 820px) {
         text-align: center;
         width: 310px;
       }
@@ -115,16 +105,22 @@ export const SolucoesContent = styled.div`
     width: 100%;
     height: 400px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       flex-wrap: none;
+      width: 400px;
       height: 1000px;
-      align-items: center;
+      align-items: start;
       justify-content: center;
       gap: 30px;
     }
 
-    @media (min-width: 767px) and (max-width: 1023px) {
-      width: 800px;
+    @media (max-width: 767px) {
+      flex-wrap: none;
+      width: 400px;
+      height: 1000px;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
     }
   }
 `;
@@ -137,11 +133,7 @@ export const ContainerInfos = styled.div`
   background-repeat: no-repeat;
   background-size: 100%;
 
-  @media (max-width: 767px) {
-    display: none;
-  }
-
-  @media (min-width: 767px) and (max-width: 1023px) {
+  @media (max-width: 820px) {
     display: none;
   }
 `;
@@ -155,7 +147,7 @@ export const Differentials = styled.div`
   height: 600px;
   width: 100%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     height: 1200px;
     justify-content: center;
     background-attachment: fixed;
@@ -171,23 +163,15 @@ export const Differentials = styled.div`
     align-items: center;
     gap: 50px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 100%;
       justify-content: center;
       flex-direction: column;
     }
-
-    @media (min-width: 767px) and (max-width: 1023px) {
-      width: 100%;
-      height: auto;
-      align-items: center;
-      gap: 0;
-      justify-content: space-evenly;
-    }
   }
 
   .DifferentialsTitle {
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 320px;
       display: flex;
       text-align: center;

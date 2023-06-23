@@ -14,21 +14,16 @@ export const Main = styled.div`
     cursor: pointer;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     width: 100%;
     gap: 0;
     justify-content: space-around;
   }
 
-  @media (min-width: 767px) and (max-width: 1023px) {
-    justify-content: center;
-    gap: 100px;
-  }
-
   .MenuBar {
     display: none;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       display: block;
     }
     i {
@@ -45,12 +40,8 @@ export const Main = styled.div`
     gap: 50px;
     font-size: 20px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       display: none;
-    }
-
-    @media (min-width: 767px) and (max-width: 1023px) {
-      font-size: 16px;
     }
   }
 
@@ -66,7 +57,7 @@ export const Main = styled.div`
       border-bottom: 2px solid #0076e2;
     }
 
-    @media (min-width: 767px) and (max-width: 1023px) {
+    @media (max-width: 820px) {
       &:hover {
         border-bottom: 2px solid transparent;
       }
@@ -111,7 +102,7 @@ export const Main = styled.div`
 
   .Selector {
     display: none;
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       display: block;
     }
   }

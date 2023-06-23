@@ -24,12 +24,8 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     height: 1400px;
-  }
-
-  @media (min-width: 767px) and (max-width: 1023px) {
-    height: 1300px;
   }
 `;
 
@@ -39,7 +35,7 @@ export const ContinerOutsiteBlue = styled.div`
   display: flex;
   justify-content: end;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     display: none;
   }
 `;
@@ -52,7 +48,7 @@ export const ContainerBlue = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     display: none;
   }
 `;
@@ -68,13 +64,8 @@ export const ContainerPerson = styled.div`
   z-index: 1;
   position: absolute;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     display: none;
-  }
-
-  @media (min-width: 767px) and (max-width: 1023px) {
-    background-size: 480px;
-    height: 1300px;
   }
 `;
 
@@ -95,7 +86,7 @@ export const ContainerInfos = styled.div`
     height: 200px;
     width: 430px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 100%;
       height: 300px;
       display: flex;
@@ -110,7 +101,7 @@ export const ContainerInfos = styled.div`
     display: flex;
     justify-content: start;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 100%;
       justify-content: center;
     }
@@ -139,7 +130,7 @@ export const ContainerInfos = styled.div`
   .TitleSubText {
     padding-left: 9px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 330px;
       padding-left: 0px;
       text-align: center;
@@ -152,7 +143,7 @@ export const AchievementsProjs = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     width: 100%;
     align-items: center;
   }
@@ -186,7 +177,7 @@ export const AchievementsProjects = styled.div`
   align-items: start;
   justify-content: space-evenly;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     align-items: center;
   }
 `;
@@ -198,8 +189,9 @@ export const Costumers = styled.div`
   align-items: start;
   gap: 50px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     width: 100%;
+    align-items: center;
   }
 
   .TitleCostumers {
@@ -223,13 +215,13 @@ export const Costumers = styled.div`
       );
       border-image-slice: 0 0 100% 0;
 
-      @media (max-width: 767px) {
+      @media (max-width: 820px) {
         display: flex;
         width: 390px;
       }
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 100%;
       align-items: center;
     }

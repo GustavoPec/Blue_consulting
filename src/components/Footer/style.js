@@ -14,14 +14,8 @@ export const Footer = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     height: 900px;
-    background-size: cover;
-  }
-
-  @media (min-width: 767px) and (max-width: 1023px) {
-    padding: 20px;
-    height: 500px;
     background-size: cover;
   }
 
@@ -73,7 +67,7 @@ export const Footer = styled.div`
       cursor: pointer;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 100%;
       height: 100%;
       justify-content: start;
@@ -108,7 +102,7 @@ export const Footer = styled.div`
     gap: 30px;
 
     img {
-      @media (max-width: 767px) {
+      @media (max-width: 820px) {
         width: 250px;
       }
     }

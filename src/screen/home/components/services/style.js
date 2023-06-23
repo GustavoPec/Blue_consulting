@@ -48,8 +48,11 @@ export const Main = styled.div`
     border-bottom: 2px solid #0076e2;
     cursor: pointer;
 
+    
+
     @media (max-width: 767px) {
       font-size: 15px;
+      width: 230px;
     }
   }
 `;

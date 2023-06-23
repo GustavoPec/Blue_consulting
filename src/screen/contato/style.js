@@ -30,7 +30,7 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     height: 800px;
     justify-content: start;
     padding-top: 40px;
@@ -56,7 +56,7 @@ export const Forms = styled.div`
   background: white;
   border-radius: 40px 40px 40px 0px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     flex-direction: column;
     height: 600px;
     gap: 20px;

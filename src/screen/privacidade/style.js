@@ -33,7 +33,7 @@ export const Container = styled.div`
     padding: 15px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     width: 100%;
   }
 `;

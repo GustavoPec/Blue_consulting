@@ -45,7 +45,7 @@ export const Consult = styled.div`
   background-size: cover;
   gap: 10%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     flex-direction: column;
     height: 900px;
     justify-content: start;
@@ -62,7 +62,7 @@ export const ConsultText = styled.div`
   justify-content: center;
   gap: 40px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     width: 100%;
     align-items: center;
   }
@@ -73,7 +73,7 @@ export const ConsultText = styled.div`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       width: 100%;
     }
 
@@ -85,7 +85,7 @@ export const ConsultText = styled.div`
       font-size: 52px;
       color: white;
 
-      @media (max-width: 767px) {
+      @media (max-width: 820px) {
         font-size: 30px;
       }
     }
@@ -106,7 +106,7 @@ export const ConsultText = styled.div`
       );
       border-image-slice: 0 0 100% 0;
 
-      @media (max-width: 767px) {
+      @media (max-width: 820px) {
         font-size: 35px;
       }
     }
@@ -118,7 +118,7 @@ export const ConsultText = styled.div`
     flex-direction: column;
     gap: 20px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 820px) {
       text-align: center;
       width: 95%;
     }
@@ -127,7 +127,7 @@ export const ConsultText = styled.div`
       font-size: 20px;
       color: white;
 
-      @media (max-width: 767px) {
+      @media (max-width: 820px) {
         font-size: 19px;
       }
     }
@@ -142,7 +142,7 @@ export const ConsultImg = styled.div`
   background-repeat: no-repeat;
   background-size: 470px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     background-size: 300px;
     background-position: top;
     width: 100%;
@@ -182,7 +182,7 @@ export const ErpSapText = styled.div`
   width: 600px;
   text-align: center;
 
-  @media (max-width: 767px) {
+  @media (max-width: 820px) {
     width: 350px;
   }
 `;

@@ -1,7 +1,7 @@
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import * as Styles from "./style";
-import Confirm  from "../../assets/Confirmation.png"
+import Confirm  from "../../assets/Confirmation.jpg"
 
 export const Confirmacao = () => {
   return (
