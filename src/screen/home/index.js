@@ -1,12 +1,12 @@
-import { Navbar } from "../../components/Navbar";
-import { Module } from "./components/modules";
+import { Navbar } from "../../components/Navbar/index.js";
+import { Module } from "./components/modules/index.js";
 import * as Styles from "./style.js";
 import Brain from "../../assets/brainIcon.png";
 import People from "../../assets/PeopleIcon.png";
 import Agree from "../../assets/AgreeIcon.png";
-import { Services } from "./components/services";
-import { Button } from "../../components/Button";
-import { Footer } from "../../components/Footer";
+import { Services } from "./components/services/index.js";
+import { Button } from "../../components/Button/index.js";
+import { Footer } from "../../components/Footer/index.js";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {

@@ -1,6 +1,6 @@
-import { Footer } from "../../components/Footer";
-import { Navbar } from "../../components/Navbar";
-import * as Styles from "./style";
+import { Footer } from "../../components/Footer/index.js";
+import { Navbar } from "../../components/Navbar/index.js";
+import * as Styles from "./style.js";
 import Confirm  from "../../assets/Confirmation.jpg"
 
 export const Confirmacao = () => {

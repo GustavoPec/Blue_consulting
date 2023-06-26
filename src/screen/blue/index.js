@@ -1,9 +1,9 @@
-import { Footer } from "../../components/Footer";
-import { Navbar } from "../../components/Navbar";
-import { Costumers } from "./components/costumers";
-import { ProjectsL } from "./components/projetsDotsLeft";
-import { ProjectsR } from "./components/projetsDotsRight";
-import * as Styles from "./style";
+import { Footer } from "../../components/Footer/index.js";
+import { Navbar } from "../../components/Navbar/index.js";
+import { Costumers } from "./components/costumers/index.js";
+import { ProjectsL } from "./components/projetsDotsLeft/index.js";
+import { ProjectsR } from "./components/projetsDotsRight/index.js";
+import * as Styles from "./style.js";
 
 export const Blue = () => {
   return (

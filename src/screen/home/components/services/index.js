@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import * as Styles from "./style";
+import * as Styles from "./style.js";
 // import Logo from "../../assets/Logo.svg"
 
 export const Services = (props) => {

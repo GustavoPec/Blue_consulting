@@ -1,4 +1,4 @@
-import * as Styles from "./style";
+import * as Styles from "./style.js";
 import LogoB from "../../assets/LogoB.png";
 import patern3 from "../../assets/paternBG3.png";
 import { useNavigate } from "react-router-dom";

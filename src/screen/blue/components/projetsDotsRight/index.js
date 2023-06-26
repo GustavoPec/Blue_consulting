@@ -1,4 +1,4 @@
-import * as Styles from "./style";
+import * as Styles from "./style.js";
 
 export const ProjectsR = (props) => {
   return (

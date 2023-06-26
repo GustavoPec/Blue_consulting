@@ -1,5 +1,5 @@
-import * as Styles from "./style";
-import { useKeenSlider } from "keen-slider/react";
+import * as Styles from "./style.js";
+import { useKeenSlider } from "keen-slider/react.js";
 import "keen-slider/keen-slider.css";
 import Logo from "../../../../assets/Logo.svg";
 

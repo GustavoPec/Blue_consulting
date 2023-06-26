@@ -1,7 +1,7 @@
-import { Footer } from "../../components/Footer";
-import { Navbar } from "../../components/Navbar";
-import { Modules } from "./Modules";
-import * as Styles from "./style";
+import { Footer } from "../../components/Footer/index.js";
+import { Navbar } from "../../components/Navbar/index.js";
+import { Modules } from "./Modules/index.js";
+import * as Styles from "./style.js";
 
 export const Consultoria = () => {
   return (

@@ -1,9 +1,9 @@
-import * as Styles from "./style";
+import * as Styles from "./style.js";
 import Logo from "../../assets/Logo.svg";
-import { Button } from "../Button";
+import { Button } from "../Button/index.js";
 import { useNavigate } from "react-router-dom";
 // import { useState } from "react";
-import { NavbarMenu } from "../MenuNAvBar";
+import { NavbarMenu } from "../MenuNAvBar/index.js";
 
 export const Navbar = () => {
   let navigate = useNavigate();

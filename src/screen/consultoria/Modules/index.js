@@ -1,4 +1,4 @@
-import * as Styles from "./style";
+import * as Styles from "./style.js";
 import RollOuts from "../../../assets/Icons/RollOuts.svg";
 import AmsSap from "../../../assets/Icons/AmsSap.svg";
 import Convercao from "../../../assets/Icons/Convercao.svg";
@@ -8,7 +8,7 @@ import InfraestruturaSap from "../../../assets/Icons/InfraestruturaSap.svg";
 import Integracao from "../../../assets/Icons/Integracao.svg";
 import MelhoriasSap from "../../../assets/Icons/MelhoriasSap.svg";
 import Upgrade from "../../../assets/Icons/Upgrade.svg";
-import { useKeenSlider } from "keen-slider/react";
+import { useKeenSlider } from "keen-slider/react.js";
 import "keen-slider/keen-slider.css";
 
 export const Modules = () => {

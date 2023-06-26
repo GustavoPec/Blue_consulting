@@ -1,6 +1,6 @@
-import { Footer } from "../../components/Footer";
-import { Navbar } from "../../components/Navbar";
-import { ProjectsL } from "./components/projetsDotsLeft";
+import { Footer } from "../../components/Footer/index.js";
+import { Navbar } from "../../components/Navbar/index.js";
+import { ProjectsL } from "./components/projetsDotsLeft/index.js";
 import compras from "../../assets/Icons/CompraIcon.png";
 import perfiluser from "../../assets/Icons/PerfilIcon.png";
 import contrato from "../../assets/Icons/ContratoIcon.png";
@@ -9,8 +9,8 @@ import nfe from "../../assets/Icons/NfeIcon.png";
 import quality from "../../assets/Icons/QualityIcon.png";
 import production from "../../assets/Icons/ProductionIcon.png";
 import key from "../../assets/Icons/KeyIcon.png";
-import * as Styles from "./style";
-import { ModulesDiffs } from "./components/ModulesDiffs";
+import * as Styles from "./style.js";
+import { ModulesDiffs } from "./components/ModulesDiffs/index.js";
 
 export const Solucoes = () => {
   return (

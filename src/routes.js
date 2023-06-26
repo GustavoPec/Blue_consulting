@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home } from "./screen/home";
-import { Blue } from "./screen/blue";
-import { Consultoria } from "./screen/consultoria";
-import { Contato } from "./screen/contato";
-import { Solucoes } from "./screen/solucoes";
-import { Privacidade } from "./screen/privacidade";
-import { Confirmacao } from "./screen/confirmacao";
+import { Home } from "./screen/home/index.js";
+import { Blue } from "./screen/blue/index.js";
+import { Consultoria } from "./screen/consultoria/index.js";
+import { Contato } from "./screen/contato/index.js";
+import { Solucoes } from "./screen/solucoes/index.js";
+import { Privacidade } from "./screen/privacidade/index.js";
+import { Confirmacao } from "./screen/confirmacao/index.js";
 
 export const RoutesAuth = () => {
   return (
