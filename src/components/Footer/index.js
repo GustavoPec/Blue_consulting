@@ -31,8 +31,20 @@ export const Footer = () => {
               }}
             />
             <div className="Icons">
-              <i className="ph ph-instagram-logo"></i>
-              <i className="ph ph-linkedin-logo"></i>
+              <i
+                className="ph ph-instagram-logo"
+                onClick={() => {
+                  window.open("https://www.instagram.com/blueconsulting_erp");
+                }}
+              ></i>
+              <i
+                className="ph ph-linkedin-logo"
+                onClick={() => {
+                  window.open(
+                    "https://www.linkedin.com/company/blue-consulting-erp-sap/"
+                  );
+                }}
+              ></i>
             </div>
           </div>
           <div
