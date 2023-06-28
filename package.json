@@ -1,7 +1,6 @@
 {
   "name": "Blue",
   "version": "0.1.0",
-  "type": "module",
   "private": true,
   "homepage": "http://www.testeblue.kinghost.net",
   "dependencies": {
