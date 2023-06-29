@@ -20,9 +20,13 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, tspan {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
+}
+
+tspan{
+  font-weight: bold;
 }
 
 
