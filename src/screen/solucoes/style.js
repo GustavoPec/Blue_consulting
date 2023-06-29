@@ -38,7 +38,8 @@ export const Container = styled.div`
 `;
 
 export const ContainerSolucoes = styled.div`
-  width: 1400px;
+  max-width: 1400px;
+  width: 100%;
   height: 800px;
   display: flex;
   flex-direction: row;
@@ -131,7 +132,7 @@ export const ContainerInfos = styled.div`
   background-image: url(${Banner});
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
 
   @media (max-width: 820px) {
     display: none;

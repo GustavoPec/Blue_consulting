@@ -22,7 +22,7 @@ export const Solucoes = () => {
         <Styles.ContainerSolucoes>
           <Styles.SolucoesContent>
             <div className="SolucoesText">
-              <h2>Soluções</h2>
+              <h2>SOLUÇÕES  </h2>
               <span>
                 Aumente a eficiência dos seus processos, alavancando a{" "}
                 <strong>confiabilidade de seus negócios integrados</strong> e
