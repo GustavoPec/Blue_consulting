@@ -2,7 +2,7 @@
   "name": "Blue",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.testeblue.kinghost.net",
+  "homepage": "http://www.testeblue.kinghost.net/",
   "dependencies": {
     "@chakra-ui/react": "^2.7.0",
     "@emotion/react": "^11.11.1",
