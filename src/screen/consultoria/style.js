@@ -39,10 +39,11 @@ export const Consult = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url(${BannerConsult});
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 26, 44, 1) 0%,
+    rgba(0, 52, 96, 1) 100%
+  );
   gap: 10%;
 
   @media (max-width: 820px) {
